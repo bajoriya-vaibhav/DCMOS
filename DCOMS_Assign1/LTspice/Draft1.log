@@ -1,0 +1,11 @@
+LTspice 24.0.12 for Windows
+Circuit: * D:\Desktop\DCOMS\LTspice\Draft1.asc
+Start Time: Wed Sep 11 19:31:20 2024
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+vin: Missing value, assumed 0V @ DC
+Total elapsed time: 0.177 seconds.
+
