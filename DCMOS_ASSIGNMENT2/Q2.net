@@ -1,0 +1,33 @@
+* D:\Desktop\DCMOS_ASSIGNMENT2\Q2.asc
+V1 Vx 0 1
+V2 Vy 0 PULSE(0 1 0 1f 1f 8n 16n 4)
+M1 N001 Vx 0 0 NMOS l=45nm w=300nm
+M2 N001 Vx Vdd Vdd PMOS l=45nm w=600nm
+M3 N002 Vy 0 0 NMOS l=45nm w=300nm
+M4 N002 Vy Vdd Vdd PMOS l=45nm w=600nm
+M5 N008 Vz 0 0 NMOS l=45nm w=300nm
+M6 N008 Vz Vdd Vdd PMOS l=45nm w=600nm
+V3 Vz 0 0
+M7 N003 N001 Vdd Vdd PMOS l=45nm w=550nm
+M8 N003 N002 Vdd Vdd PMOS l=45nm w=550nm
+M9 N003 N001 N004 N004 NMOS l=45nm w=550nm
+M10 N004 N002 0 0 NMOS l=45nm w=550nm
+M11 N007 N002 0 0 NMOS l=45nm w=620nm
+M12 N007 N002 Vdd Vdd PMOS l=45nm w=1240nm
+M13 N005 N007 Vdd Vdd PMOS l=45nm w=1905nm
+M14 N005 N008 Vdd Vdd PMOS l=45nm w=1905nm
+M15 N005 N007 N009 N009 NMOS l=45nm w=1905nm
+M16 N009 N008 0 0 NMOS l=45nm w=1905nm
+M17 Vout N003 Vdd Vdd PMOS l=45nm w=2930nm
+M18 Vout N005 Vdd Vdd PMOS l=45nm w=2930nm
+M19 Vout N003 N006 N006 NMOS l=45nm w=2930nm
+M20 N006 N005 0 0 NMOS l=45nm w=2930nm
+V4 Vdd 0 1
+C1 Vout 0 13f
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\bajor\AppData\Local\LTspice\lib\cmp\standard.mos
+.inc "D:\Desktop\DCMOS_ASSIGNMENT2\ptm_45nm_hp.l"
+.tran 40ns
+.backanno
+.end
