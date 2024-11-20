@@ -1,0 +1,13 @@
+LTspice 24.0.12 for Windows
+Circuit: * D:\Desktop\DCMOS_PROJECT\LSA.asc
+Start Time: Sun Nov 17 18:08:50 2024
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node N003 is floating.
+
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.304 seconds.
+

@@ -1,0 +1,22 @@
+LTspice 24.0.12 for Windows
+Circuit: * D:\Desktop\DCMOS_PROJECT\SAFF.asc
+Start Time: Wed Nov 20 06:35:42 2024
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node N006 is floating.
+WARNING: Node N011 is floating.
+WARNING: Node N009 is floating.
+WARNING: Node N012 is floating.
+WARNING: Node N010 is floating.
+
+WARNING: Less than two connections to node n006.  This node is used by m9.
+WARNING: Less than two connections to node n011.  This node is used by m15.
+WARNING: Less than two connections to node n009.  This node is used by m17.
+WARNING: Less than two connections to node n012.  This node is used by m11.
+WARNING: Less than two connections to node n010.  This node is used by m13.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.191 seconds.
+
